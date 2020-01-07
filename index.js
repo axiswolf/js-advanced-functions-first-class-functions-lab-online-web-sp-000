@@ -13,7 +13,5 @@ const createFareMultiplier = function(fares,multiplier) {
   return fares*multiplier
 }
 
-const fareDoubler = function(fares) {
-  returns createFareMultiplier(fares,2)
+const fareDoubler = createFareMultiplier(fares, 2)
 
-}
