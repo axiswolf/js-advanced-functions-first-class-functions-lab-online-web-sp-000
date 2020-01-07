@@ -14,5 +14,5 @@ function createFareMultiplier() {
 }
 
 function fareDoubler() {
-  
+
 }
