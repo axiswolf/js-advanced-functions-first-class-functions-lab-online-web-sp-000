@@ -1,6 +1,6 @@
 // Code your solution in this file!
-function returnFirstTwoDrivers(drivers...a,b) {
-  return drivers
+const returnFirstTwoDrivers = function(drivers) {
+  return [drivers[0], drivers[1]]
 }
 
 function selectingDrivers() {
